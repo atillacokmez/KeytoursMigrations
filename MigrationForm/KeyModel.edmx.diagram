@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8b7eb4c3d64747cb91624e9ab5e0693c" Name="Diagram1">
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AccreditationCode" Width="1.5" PointX="10.5" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AccreditationCodeType" Width="1.5" PointX="8.25" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ActivityLog" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Address" Width="1.5" PointX="8.25" PointY="70.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AddressType" Width="1.5" PointX="8.25" PointY="74.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AdminModule" Width="1.5" PointX="2.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AdminModuleRole" Width="1.5" PointX="10.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AdminPage" Width="1.5" PointX="12.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AdvseBook" Width="1.5" PointX="2.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AgentResource" Width="1.5" PointX="12.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Air" Width="1.5" PointX="13.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AirlineAddOnRate" Width="1.5" PointX="23" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AirlineSurcharge" Width="1.5" PointX="10.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ApiEnvironment" Width="1.5" PointX="12.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ApiEnvironmentType" Width="1.5" PointX="14.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ApiUser" Width="1.5" PointX="0.75" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ApiUserProvider" Width="1.5" PointX="3" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ApiUserTour" Width="1.5" PointX="14.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Auth_Element" Width="1.5" PointX="35" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Auth_Element_Type" Width="1.5" PointX="32.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Auth_Matrix" Width="1.5" PointX="37.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Auth_Matrix_Member_Type" Width="1.5" PointX="39.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AuthorityGroup" Width="1.5" PointX="10.5" PointY="39.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AuthorityGroupPolicy" Width="1.5" PointX="12.75" PointY="38.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AutoEuropeLocation" Width="1.5" PointX="10.75" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AutoEuropeLocationType" Width="1.5" PointX="16.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BackgroundTask" Width="1.5" PointX="12.75" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BackgroundTaskBaseDate" Width="1.5" PointX="20.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BackgroundTaskEvent" Width="1.5" PointX="20.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BackgroundTaskType" Width="1.5" PointX="12.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Board" Width="1.5" PointX="27.75" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BookingAgent" Width="1.5" PointX="23" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BookingAgentAssistant" Width="1.5" PointX="12.75" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BookingAgentDefaultAssistant" Width="1.5" PointX="25.25" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BookingAgentRole" Width="1.5" PointX="37.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BranchOffice" Width="1.5" PointX="34.75" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BranchOfficeUser" Width="1.5" PointX="30.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BrochureDownload" Width="1.5" PointX="28" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BrochureOrderAmount" Width="1.5" PointX="31" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BrochureOrder" Width="1.5" PointX="28.75" PointY="38.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BrochureType" Width="1.5" PointX="25.75" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CancelationRule" Width="1.5" PointX="3" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CancelationRuleSubCondition" Width="1.5" PointX="5.25" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CarRentalApiLog" Width="1.5" PointX="32.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CelitechDestinationMatching" Width="1.5" PointX="32.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CelitechDestination" Width="1.5" PointX="34.75" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ChatbotFlow" Width="1.5" PointX="5.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ChatbotPrompt" Width="1.5" PointX="8" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ChildReduction" Width="1.5" PointX="35.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ClientType" Width="1.5" PointX="14.75" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CodePromotion" Width="1.5" PointX="36.75" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Commission" Width="1.5" PointX="37.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CommissionCondition" Width="1.5" PointX="36.75" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CommissionPayment" Width="1.5" PointX="37.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Company" Width="1.5" PointX="5.25" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CompanyAccountType" Width="1.5" PointX="3" PointY="47" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CompanyAddress" Width="1.5" PointX="10.5" PointY="48" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CompanyConsortium" Width="1.5" PointX="20.75" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CompanyContentAccess" Width="1.5" PointX="37.75" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CompanyHomePageBanner" Width="1.5" PointX="7.5" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CompanyMember" Width="1.5" PointX="10.5" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CompanyPageSetting" Width="1.5" PointX="7.5" PointY="61" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CompanyPhone" Width="1.5" PointX="13.5" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CompanyServiceAccess" Width="1.5" PointX="38.75" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CompanySocialMediaLink" Width="1.5" PointX="13.5" PointY="41.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CompanyTag" Width="1.5" PointX="13.5" PointY="47.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Consortium" Width="1.5" PointX="38.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ConsortiumCustom" Width="1.5" PointX="38.75" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ConsortiumWebuser" Width="1.5" PointX="38.75" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Contman" Width="1.5" PointX="25.25" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CountryCode" Width="1.5" PointX="38.75" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CouponSetting" Width="1.5" PointX="39.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CreditCardType" Width="1.5" PointX="39.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CrmDashboard" Width="1.5" PointX="39.75" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CruiseAllotment" Width="1.5" PointX="8" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CruiseCabin" Width="1.5" PointX="5.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CruiseImage" Width="1.5" PointX="39.75" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CruiseItinerary" Width="1.5" PointX="40.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CruiseLine" Width="1.5" PointX="40.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CruiseLinePrice" Width="1.5" PointX="40.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CruiseRegionMatching" Width="1.5" PointX="8" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CruiseRegion" Width="1.5" PointX="5.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CruiseSchedule" Width="1.5" PointX="5.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CruiseScheduleAllotment" Width="1.5" PointX="11" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CruiseTour" Width="1.5" PointX="40.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CruiseTourVisitPort" Width="1.5" PointX="40.75" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Currency" Width="1.5" PointX="40.75" PointY="34.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Custom" Width="1.5" PointX="23" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CustomDashboardMessage" Width="1.5" PointX="34.75" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CustomerPayment" Width="1.5" PointX="35.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CustomerPayments_Type" Width="1.5" PointX="36.75" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CustomerReduction" Width="1.5" PointX="41.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CXPIssueReport" Width="1.5" PointX="41.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CXPLog" Width="1.5" PointX="41.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CXPTransaction" Width="1.5" PointX="27.75" PointY="43.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DepartureCity" Width="1.5" PointX="20.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DepartureCityRank" Width="1.5" PointX="41.75" PointY="37.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DepositPaymentType" Width="1.5" PointX="41.75" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DepositType" Width="1.5" PointX="41.75" PointY="43.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Destination" Width="1.5" PointX="3" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Destination_Details" Width="1.5" PointX="42.75" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Destination_Tour" Width="1.5" PointX="42.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DestinationInfo" Width="1.5" PointX="42.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DestinationMatching" Width="1.5" PointX="20.75" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DestinationPortMatching" Width="1.5" PointX="5.25" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DestinationProduct" Width="1.5" PointX="22.75" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DestinationsWithParent" Width="1.5" PointX="42.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DestType" Width="1.5" PointX="42.75" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DocumentOption" Width="1.5" PointX="42.75" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Doiser" Width="1.5" PointX="38.75" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DomainProductPool" Width="1.5" PointX="43.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ElasticSearchSync" Width="1.5" PointX="43.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ErrorLog" Width="1.5" PointX="24.75" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.EscrowPayment" Width="1.5" PointX="38" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ExchangeRate" Width="1.5" PointX="43.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Expense" Width="1.5" PointX="34.75" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ExtraCommission" Width="1.5" PointX="43.75" PointY="37.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Faq" Width="1.5" PointX="43.75" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Field" Width="1.5" PointX="43.75" PointY="43.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.FileManagerFolderStructure" Width="1.5" PointX="44.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.FlightClass" Width="1.5" PointX="44.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.FlightList" Width="1.5" PointX="44.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.GarbageAnalyze" Width="1.5" PointX="44.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Generate_Code_For_Auto_Task" Width="1.5" PointX="26.75" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Generate_Code_For_Mini_Website" Width="1.5" PointX="44.75" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Generate_Code_For_Referer_Friend" Width="1.5" PointX="40.75" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Generate_Code_For_TravelerPayment" Width="1.5" PointX="44.75" PointY="34.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.GoogleHotelRawData" Width="1.5" PointX="42.75" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.GoogleRawResponse" Width="1.5" PointX="44.75" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.HomePageBanner" Width="1.5" PointX="45.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.HotelRating" Width="1.5" PointX="45.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.HotelRoomType" Width="1.5" PointX="15.75" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.HubSpotLandingPage" Width="1.5" PointX="17.75" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.HubSpotLog" Width="1.5" PointX="45.75" PointY="37.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.IataAircraftCode" Width="1.5" PointX="45.75" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.IataAirlineCode" Width="1.5" PointX="45.75" PointY="43.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.IataAirportCode" Width="1.5" PointX="46.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.IncludedService" Width="1.5" PointX="46.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.InterestType" Width="1.5" PointX="7.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.InterestTypeService" Width="1.5" PointX="10" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.InterestTypeType" Width="1.5" PointX="46.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.JobApply" Width="1.5" PointX="46.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.KeytoursDepartment" Width="1.5" PointX="19.75" PointY="48.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.KeytoursSubDomain" Width="1.5" PointX="21.75" PointY="48.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Landing_List" Width="1.5" PointX="46.75" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Landing_List_Org" Width="1.5" PointX="46.75" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.LandingCrossSale" Width="1.5" PointX="35.75" PointY="48.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Language" Width="1.5" PointX="46.75" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.LocalImage" Width="1.5" PointX="47.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Log_FlightList" Width="1.5" PointX="18" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Log_Quote" Width="1.5" PointX="15.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Log_QuotePassenger" Width="1.5" PointX="26.75" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Log_Service" Width="1.5" PointX="18" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Log_ServiceAddOnExpense" Width="1.5" PointX="18" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Log_ServicePassenger" Width="1.5" PointX="37.75" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.LoyaltyConfiguration" Width="1.5" PointX="47.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.LoyaltyEarned" Width="1.5" PointX="47.75" PointY="37.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.LoyaltyProgram" Width="1.5" PointX="47.75" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.LoyaltyProgramType" Width="1.5" PointX="47.75" PointY="43.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.LoyaltyUsed" Width="1.5" PointX="42.75" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.LuggageInfo" Width="1.5" PointX="44.75" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.MailTemplate" Width="1.5" PointX="46.75" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.MainLandInfo" Width="1.5" PointX="48.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.MainLandInfoDestination" Width="1.5" PointX="48.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.MarkupProfile" Width="1.5" PointX="3" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.MarkupProfileType" Width="1.5" PointX="0.75" PointY="43.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.MarkupRule" Width="1.5" PointX="8.25" PointY="44" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Member" Width="1.5" PointX="3" PointY="55.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.MemberAddress" Width="1.5" PointX="5.25" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.MemberAssistant" Width="1.5" PointX="5.25" PointY="60.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.MemberAuthorityGroup" Width="1.5" PointX="12.75" PointY="50.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.MemberPhone" Width="1.5" PointX="8.25" PointY="57.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.MemberType" Width="1.5" PointX="8.25" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Messageboard" Width="1.5" PointX="48.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.MiniwebsiteShareLog" Width="1.5" PointX="14.75" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.OpenExchangeRateOrg" Width="1.5" PointX="16.75" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.OperationMenuItem" Width="1.5" PointX="48.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ParsecDestination" Width="1.5" PointX="30.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ParsecHotelPhoto" Width="1.5" PointX="48.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PaymentRule" Width="1.5" PointX="5.25" PointY="64" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PaymentRuleBaseDate" Width="1.5" PointX="3" PointY="52.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PaymentRuleProfile" Width="1.5" PointX="3" PointY="61.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PaymentRuleSubCondition" Width="1.5" PointX="7.5" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Pending" Width="1.5" PointX="23.75" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Pending_Auto_Assign" Width="1.5" PointX="48.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PendingNote" Width="1.5" PointX="48.75" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PendingPass" Width="1.5" PointX="48.75" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PendingStatu" Width="1.5" PointX="39.75" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Phone" Width="1.5" PointX="11.25" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PhoneType" Width="1.5" PointX="9" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Policy" Width="1.5" PointX="10.5" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PolicyType" Width="1.5" PointX="8.25" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PreferredProduct" Width="1.5" PointX="48.75" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PrivateTourPricingByVehicle" Width="1.5" PointX="48.75" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Promotion" Width="1.5" PointX="33.75" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PromotionCondition" Width="1.5" PointX="36" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PromotionConditionDaily" Width="1.5" PointX="49.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PromotionDiscountsPerPassenger" Width="1.5" PointX="49.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PromotionDiscountValue" Width="1.5" PointX="18.75" PointY="51.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ProviderHotelBrand" Width="1.5" PointX="49.75" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ProviderHotelChain" Width="1.5" PointX="49.75" PointY="39.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ProviderHotelDescription" Width="1.5" PointX="49.75" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ProviderHotelFacility" Width="1.5" PointX="30.75" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ProviderHotelFacilityGroup" Width="1.5" PointX="30.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ProviderHotelFacilityGroupsRelation" Width="1.5" PointX="33" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ProviderHotelFacilityRelation" Width="1.5" PointX="33" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ProviderHotelPointOfInterest" Width="1.5" PointX="33" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Provider" Width="1.5" PointX="0.75" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quote" Width="1.5" PointX="50.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quote_Auto_Assign" Width="1.5" PointX="50.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quote_Old" Width="1.5" PointX="20.75" PointY="52.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quote2" Width="1.5" PointX="41.75" PointY="52.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.QuoteCommissionDetail" Width="1.5" PointX="50.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.QuoteCommissionDetailType" Width="1.5" PointX="50.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp" Width="1.5" PointX="43.75" PointY="52.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Names" Width="1.5" PointX="50.75" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Names_Rooms_Assign" Width="1.5" PointX="50.75" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_PreDefined" Width="1.5" PointX="45.75" PointY="52.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_PreDefinedReferanceDate" Width="1.5" PointX="50.75" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Proposal" Width="1.5" PointX="32.75" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Proposal_Air" Width="1.5" PointX="51.75" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Proposal_Exclude" Width="1.5" PointX="51.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Proposal_Include" Width="1.5" PointX="51.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Proposal_Oth_Supl_Cost" Width="1.5" PointX="34.75" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Proposal_Service" Width="1.5" PointX="47.75" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Service_Detail" Width="1.5" PointX="51.75" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Tours" Width="1.5" PointX="49.75" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.QuoteNote" Width="1.5" PointX="51.75" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.QuotePassenger" Width="1.5" PointX="52.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.QuotePassenger_old" Width="1.5" PointX="13.75" PointY="54.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.QuotePassenger2" Width="1.5" PointX="15.75" PointY="54.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.QuotePassengerLoyaltyProgram" Width="1.5" PointX="52.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.QuotePaymentSchedule" Width="1.5" PointX="52.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.QuoteReductionDetail" Width="1.5" PointX="17.75" PointY="54.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.QuoteReductionDetailType" Width="1.5" PointX="52.75" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.QuoteStatu" Width="1.5" PointX="52.75" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.QuoteType" Width="1.5" PointX="52.75" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Referrer" Width="1.5" PointX="52.75" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ResetPassword" Width="1.5" PointX="52.75" PointY="48.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.RoomType" Width="1.5" PointX="53.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SawU" Width="1.5" PointX="23" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SendPaymentRequest" Width="1.5" PointX="53.75" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Service" Width="1.5" PointX="53.75" PointY="51.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Service_Old" Width="1.5" PointX="30.75" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Service_Revision_Log" Width="1.5" PointX="54.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Service2" Width="1.5" PointX="54.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceAddOnExpense" Width="1.5" PointX="53.75" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceDocumentUpload" Width="1.5" PointX="54.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceExceptionPrice" Width="1.5" PointX="54.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceHotelRoom" Width="1.5" PointX="54.75" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceHotelRoom2" Width="1.5" PointX="54.75" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceNetPriceBreakdown" Width="1.5" PointX="10.75" PointY="57.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceOrigin" Width="1.5" PointX="55.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServicePassenger" Width="1.5" PointX="17.75" PointY="57.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServicePassenger_old" Width="1.5" PointX="55.75" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServicePassenger2" Width="1.5" PointX="55.75" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceProfitBreakdown" Width="1.5" PointX="55.75" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceReview" Width="1.5" PointX="56.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceRoomingPrice" Width="1.5" PointX="56.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceStatusType" Width="1.5" PointX="56.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceType" Width="1.5" PointX="3" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Shipping" Width="1.5" PointX="56.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ShoppingCart" Width="1.5" PointX="56.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ShoppingCartHotelRoom" Width="1.5" PointX="56.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SocialMediaType" Width="1.5" PointX="11.25" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.State" Width="1.5" PointX="56.75" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.StaticPage" Width="1.5" PointX="8" PointY="38.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.StaticPageType" Width="1.5" PointX="5.75" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SubscriptionCategory" Width="1.5" PointX="56.75" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Subscription" Width="1.5" PointX="57.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SubService" Width="1.5" PointX="57.75" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SubSupplier" Width="1.5" PointX="5.25" PointY="70.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SubSupplierType" Width="1.5" PointX="3" PointY="80.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.suppl_sent_log" Width="1.5" PointX="36.75" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Supplier" Width="1.5" PointX="3" PointY="65.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierAddOnRate" Width="1.5" PointX="57.75" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierAllotment" Width="1.5" PointX="38.75" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierCabin" Width="1.5" PointX="8" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierMailLog" Width="1.5" PointX="57.75" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierMember" Width="1.5" PointX="8.25" PointY="54.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierMemberType" Width="1.5" PointX="6" PointY="54.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierPaymentRule" Width="1.5" PointX="57.75" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierPaymentRuleType" Width="1.5" PointX="49.75" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierPaymentType" Width="1.5" PointX="57.75" PointY="54.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierPortalActivityLog" Width="1.5" PointX="57.75" PointY="57.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierResponse" Width="1.5" PointX="58.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierSuggestion" Width="1.5" PointX="58.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.SupplierTourSuggestion" Width="1.5" PointX="58.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.sysdiagram" Width="1.5" PointX="58.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Tag" Width="1.5" PointX="11.25" PointY="55.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TaskApiUser" Width="1.5" PointX="58.75" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TaskCancelReason" Width="1.5" PointX="58.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TaskCheckPoint" Width="1.5" PointX="58.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TaskDocumentControl" Width="1.5" PointX="58.75" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TaskLead" Width="1.5" PointX="58.75" PointY="43.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TaskNote" Width="1.5" PointX="59.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TaskReferanceDate" Width="1.5" PointX="9.75" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Task" Width="1.5" PointX="22.75" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TaskType" Width="1.5" PointX="24.75" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TaskTypeCheckPointOption" Width="1.5" PointX="26.75" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TaskTypeLinked" Width="1.5" PointX="59.75" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.tbl_Invoice" Width="1.5" PointX="30.75" PointY="68.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.tbl_InvoiceServices" Width="1.5" PointX="33" PointY="50.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.tbl_Seo_Link" Width="1.5" PointX="59.75" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TemplateDesign" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TmSequence" Width="1.5" PointX="25.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TmSequenceTaskTemplate" Width="1.5" PointX="28" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TmTaskTemplate" Width="1.5" PointX="25.75" PointY="42" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TmUserRole" Width="1.5" PointX="25.75" PointY="38.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TmUserRoleSequence" Width="1.5" PointX="28" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TmUserType" Width="1.5" PointX="23.5" PointY="38.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourAllotment" Width="1.5" PointX="23.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourCruiseAllotment" Width="1.5" PointX="59.75" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourCruiseScheduleAllotment" Width="1.5" PointX="59.75" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Tourdet" Width="1.5" PointX="59.75" PointY="56.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Tourdetbad" Width="1.5" PointX="55.75" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourExpense" Width="1.5" PointX="60.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourFlightAllotment" Width="1.5" PointX="26" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourIncludedService" Width="1.5" PointX="60.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourSchedule" Width="1.5" PointX="32.75" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourServiceList" Width="1.5" PointX="60.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourServiceList_HotelsByDate" Width="1.5" PointX="60.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourServiceList_Supplier" Width="1.5" PointX="60.75" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Toursn" Width="1.5" PointX="17.75" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourSuggestion" Width="1.5" PointX="60.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourSupplierSuggestion" Width="1.5" PointX="60.75" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourTag" Width="1.5" PointX="60.75" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TransferType" Width="1.5" PointX="45.75" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TravelDocument" Width="1.5" PointX="47.75" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TravelerPayment" Width="1.5" PointX="49.75" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TravelGateMealCode" Width="1.5" PointX="57.75" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TravelGateXmlLog" Width="1.5" PointX="59.75" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TravelInsurance" Width="1.5" PointX="61.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TravelTekPort" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.UserActivation" Width="1.5" PointX="61.75" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.UserProfile" Width="1.5" PointX="20.75" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.User" Width="1.5" PointX="23" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ViatorLog" Width="1.5" PointX="61.75" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ViatorRestrictedCategory" Width="1.5" PointX="61.75" PointY="39.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Voucher" Width="1.5" PointX="61.75" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.W2M_Categories" Width="1.5" PointX="61.75" PointY="56.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.W2M_Destination" Width="1.5" PointX="61.75" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.W2M_Facilities" Width="1.5" PointX="61.75" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.W2M_ZonesWithParents" Width="1.5" PointX="62.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.WebUser" Width="1.5" PointX="28.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.WebUserDisposablePassword" Width="1.5" PointX="62.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.WebUserInterest" Width="1.5" PointX="25.25" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.WishList" Width="1.5" PointX="62.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.WishListItem" Width="1.5" PointX="9.75" PointY="64.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.xmlGeneratorRule" Width="1.5" PointX="62.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.XMLItem" Width="1.5" PointX="62.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Airline" Width="1.5" PointX="62.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AirlineSchedule" Width="1.5" PointX="62.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AirlineScheduleDetail" Width="1.5" PointX="26.75" PointY="64.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.AirlineScheduleDetail_tmp" Width="1.5" PointX="62.75" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BrochureSubDocument" Width="1.5" PointX="28" PointY="34.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.BusinessRulesDestination" Width="1.5" PointX="63.75" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CommissionType" Width="1.5" PointX="62.75" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Contman_Result" Width="1.5" PointX="63.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Cost_Supllier" Width="1.5" PointX="40.75" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Country" Width="1.5" PointX="63.75" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Custom_Account_Type" Width="1.5" PointX="42.75" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Custom_Payments_CardType" Width="1.5" PointX="63.75" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.CustomerSawU" Width="1.5" PointX="25.25" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.DestinationTravelCuriousMatching" Width="1.5" PointX="44.75" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.EscrowPaymentsBck" Width="1.5" PointX="63.75" PointY="48.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.GarbageBackUpList" Width="1.5" PointX="46.75" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Group_Referals" Width="1.5" PointX="48.75" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Landing_Image" Width="1.5" PointX="50.75" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.LostReasonType" Width="1.5" PointX="63.75" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PrivateTourPrice" Width="1.5" PointX="52.75" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PrivateTourPricing" Width="1.5" PointX="35" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.PromotionDiscountType" Width="1.5" PointX="63.75" PointY="56.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Cost_Supllier" Width="1.5" PointX="63.75" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_ExcInc" Width="1.5" PointX="59.75" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Invoice" Width="1.5" PointX="61.75" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Notes" Width="1.5" PointX="63.75" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Proposal_GenExp" Width="1.5" PointX="64.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Proposal_GenExp_old" Width="1.5" PointX="64.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Proposal_N" Width="1.5" PointX="64.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Quotegrp_Referals" Width="1.5" PointX="64.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ReverseGeoLocation" Width="1.5" PointX="64.75" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.ServiceCategory" Width="1.5" PointX="64.75" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Suplierb" Width="1.5" PointX="22.75" PointY="67.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.Suplierb_Tmp" Width="1.5" PointX="65.75" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TfppPaymentsReturn" Width="1.5" PointX="65.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourCruiseSchedule" Width="1.5" PointX="65.75" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourFlightSchedule" Width="1.5" PointX="65.75" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourServiceList_SupplierAlternatives" Width="1.5" PointX="65.75" PointY="54.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourServiceList_Tour" Width="1.5" PointX="54.75" PointY="67.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.TourServiceListDate" Width="1.5" PointX="65.75" PointY="58.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.UserRole" Width="1.5" PointX="56.75" PointY="67.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.UserRolesPage" Width="1.5" PointX="65.75" PointY="63.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.UserRolesPages_filter_Types" Width="1.5" PointX="65.75" PointY="67.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KeytoursSaasDbModel.W2M_ZoneList" Width="1.5" PointX="66.75" PointY="5.875" IsExpanded="true" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_AccreditationCode_AccreditationCodeType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_AccreditationCode_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyAddress_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MemberAddress_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyAddress_AddressType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MemberAddress_AddressType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_AirlineAddOnRate_DepartureCity" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_ApiUserProviders_ApiUser" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CancelationRule_ApiUser" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Company_ApiUser" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyAccountType_ApiUser" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MarkupProfile_ApiUser" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Member_ApiUser" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_PaymentRuleProfile_ApiUser" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.StaticPage_ApiUser_ApiUserId_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_ApiUserProvider_Providers" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.Auth_Element_Auth_Element_Type_Auth_Element_Type_ID_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.Auth_Matrix_Auth_Element_Auth_Element_ID_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.Auth_Matrix_Member_Type_Auth_Matrix_Auth_Matrix_ID_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.Auth_Matrix_Member_Type_BookingAgentRole_ID_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_AuthorityGroup_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_AuthorityGroup_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_AuthorityGroupPolicy_AuthorityGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MemberAuthorityGroup_AuthorityGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_AuthorityGroupPolicy_Policy" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_BookingAgent_UserProfiles" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_BookingAgentDefaultAssistant_BookingAgent" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Contman_BookingAgent" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_BrochureDownloads_BrochureTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_BrochureOrderAmounts_BrochureOrders" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_BrochureOrderAmounts_BrochureTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_BrochureSubDocument_BrochureTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CancelationRuleSubCondition_CancelationRule" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CancelationRuleSubCondition_Destination" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CancelationRuleSubCondition_ServiceType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CancelationRuleSubCondition_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.ChatbotPrompts_ChatbotFlows_ID_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Company_CompanyAccountType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Company_TemplateDesign" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyAddress_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyHomePageBanner_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyMember_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyPageSettings_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyPhone_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanySocialMediaLink_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyTag_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyMember_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyMember_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyPhone_Phone" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanySocialMediaLink_SocialMediaType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CompanyTag_Tag" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Contman_Custom" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CruiseAllotment_CruiseCabin" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CruiseAllotment_CruiseSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CruiseScheduleAllotments_CruiseCabin" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_SupplierCabin_CruiseCabin" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.CruiseRegionMatching_CruiseRegions_ID_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CruiseScheduleAllotments_CruiseSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Custom_DepartureCity" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CustomerSawUs_Custom" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_WebUser_Custom" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_WebUserInterests_Custom" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_EscrowPayments_CustomerPayments" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_TourFlightAllotment_DepartureCity" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.DestinationPortMatching_Destination_Destination_ID_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MarkupRule_Destination" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_PaymentRuleSubCondittion_Destination" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.DestinationPortMatching_TravelTekPort_TravelTekPortID_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_InterestTypeService_InterestType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Log_FlightList_Log_Quote" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Log_Quote_Log_Quote" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Log_Service_Log_Quote" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Log_ServiceAddOnExpense_Log_Quote" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MarkupProfile_MarkupProfileType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MarkupRule_MarkupProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MarkupRule_ServiceType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MemberAddress_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MemberAssistant_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MemberAssistant_Member1" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MemberAuthorityGroup_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MemberPhone_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_SupplierMember_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_MemberPhone_Phone" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Policy_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_ProviderHotelFacilityRelation_ParsecDestination" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_ProviderHotelPointOfInterest_ParsecDestination" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_PaymentRule_PaymentRuleBaseDate" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_PaymentRule_PaymentRuleProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_PaymentRuleSubCondittion_PaymentRule" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_PaymentRuleSubCondittion_ServiceType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_PaymentRuleSubCondittion_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Phone_PhoneType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Policy_PolicyType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_PromotionCondition_Promotion" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_ProviderHotelFacilityRelation_ProviderHotelFacility" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.ProviderHotelFacilityGroupsRelations_ProviderHotelFacility_null_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.ProviderHotelFacilityGroupsRelations_ProviderHotelFacilityGroups_null_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_CustomerSawUs_SawUs" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_tbl_InvoiceServices_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_StaticPage_StaticPageType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_SubSuppliers_SubSupplierTypes1" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_SubSuppliers_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_SupplierMember_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_SupplierMember_SupplierMemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_tbl_InvoiceServices_tbl_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_TmSequenceTaskTemplate_TmSequence" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_TmUserRoleSequence_TmSequence" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_TmSequenceTaskTemplate_TmTaskTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_TmUserRole_TmUserType" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_TmUserRoleSequence_TmUserRole" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_TourFlightAllotment_TourAllotment" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_PrivateTourPricing_TourSchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_Users_UserProfiles" ManuallyRouted="false" />
+        <AssociationConnector Association="KeytoursSaasDbModel.FK_WebUser_UserProfiles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
