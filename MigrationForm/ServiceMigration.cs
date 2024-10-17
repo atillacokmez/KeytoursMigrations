@@ -522,6 +522,7 @@ namespace MigrationForm
 		// hotel odaları kontol edilmeli cok eksik var 21.03.2024
 		//sprint notları kontrol et  21.03.2024
 		// providerconfirmation number eklendi satır 840 tekrar çalıştırılması gerekiyor uygulamak için 29.03.2024
+		// eskiservis tablosundaki XMLRef yeni tabloya taşınmadı. doiserno olmayıp xmlrefi dolu olan kayıtlar olabilir. Sor öğren 17.10.2024
 
 		public static void MigrateServiceTables()
         {
