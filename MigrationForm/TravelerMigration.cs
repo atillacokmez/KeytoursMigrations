@@ -116,6 +116,8 @@ namespace MigrationForm
             }
         }
 
+
+		//service passengerda priceperperson kolonlarının hepsi boş kontrol et
         public static void MigrateServicePassenger()
         {
             using (KeyConNew saasDb = new KeyConNew())
