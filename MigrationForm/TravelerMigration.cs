@@ -12,10 +12,12 @@ namespace MigrationForm
 {
     public class TravelerMigration
     {
-        // tablolardaki tüm telefonların validate edilip migrate edilmesi, kesin değil
+		// tablolardaki tüm telefonların validate edilip migrate edilmesi, kesin değil
 		// Phonecountrycode ve emergencycontactcountrycode eklendi. phone bunlara göre düzenlenmeli.
 
-        public static void MigrateQuotePassenger()
+		// servicehotelroom yeni kolon baseprovidercode
+
+		public static void MigrateQuotePassenger()
         {
 
             using (KeyConNew saasDb = new KeyConNew())
